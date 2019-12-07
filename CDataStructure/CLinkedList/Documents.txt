@@ -1,0 +1,5 @@
+V0.1 实现了基本的单双向链表功能
+V0.2 使用面向对象的编程思想重构了链表框架
+V0.3 抽象出BasicNode.h，使新建的Node类型更加统一
+V0.4 修改了NodeFree(Node **node),使node free掉后指向NULL
+V0.5 重大更新，LinkedListFree无论链表是否为空都一律强制free并且指向NULL
